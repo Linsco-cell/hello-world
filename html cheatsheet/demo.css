@@ -1,0 +1,77 @@
+*, *:before, *:after{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background: rgb(255, 255, 255);
+	background: url('Aviary Stock Photo 1.png');
+
+}
+.content {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	background: rgb(180, 180, 180);
+	height: 600px;
+	width: 750px;
+	left:50%;
+	border-radius: 10px;
+}
+.header {
+	color: rgb(0, 0, 29);
+	text-transform: uppercase;
+	padding: 75px 60px;
+	font-size: 30px;
+	background: url('Aviary Stock Photo 2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-top-left-radius:10px
+	border-top-right-radius :10px;
+	text-align: center;
+}
+form{
+	padding-top: 20px;
+	color: rgb(0, 0, 6);
+}
+.form-group{
+	margin: 50px 0;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.label{
+	margin-right: 25px;
+	font-size: 18px;
+}
+.input[type="text"], .input[type="email"], .input[type="password"]{
+
+	width: 80%;
+	font-size 18px;
+	border: none;
+	border-bottom:1px solid rgb(0, 89, 172);
+	padding-bottom: 5px
+	padding-left:7px;
+	outline: none;
+
+ }
+ input[type='submit'] {
+ 	border: none;
+ 	padding: 20x 40px;
+ 	width: 65%
+ 	font-size:20px;
+ 	border-radius: 5px;
+ 	margin-right: 40px;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+
+ }
+ input[type="submit"]:hover{
+ 	
+
+
+ }
+ 
